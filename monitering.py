@@ -2,8 +2,6 @@ import pygame
 import psutil as ps 
 import  sys
 pygame.init()
-theFont=pygame.font.Font(None,72)
-clock = pygame.time.Clock()
 screen = pygame.display.set_mode([320, 150])
 pygame.display.set_caption('Live Cpu Usage')
 def text(Fnt,size,txt,clr,corx,cory):
